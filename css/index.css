@@ -1,0 +1,64 @@
+body, img {
+	padding:0;
+	margin:0;
+}
+
+img {
+	position:fixed;
+	left:0;
+	right:0;
+	z-index:-1;
+	opacity:0.9;
+	height:100%;
+	width:100%;
+}
+
+#text {
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	top:30%;
+	height:100%;
+	width:100%;
+	vertical-align:central;
+	text-align:center;
+	font-size:36px;
+	color:#FFFFFF;
+	text-shadow:2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.round-button{
+	width:5%;
+	position:fixed;
+	bottom:10%;
+	left:47.5%;
+	box-shadow:10px;
+}
+
+#round-button-back{
+	width:100%;
+	border-radius:50%;
+	height:0;
+	padding-bottom:100%;
+	border:0;
+	overflow:hidden;
+	background:#fff;
+}
+
+#round-button-back:hover{
+	background:#23EFF3;
+}
+
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:36px;
+}
+	
