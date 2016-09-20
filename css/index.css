@@ -17,7 +17,7 @@ img {
 	position:absolute;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	top:30%;
-	height:100%;
+	height:60%;
 	width:100%;
 	vertical-align:central;
 	text-align:center;
@@ -27,10 +27,10 @@ img {
 }
 
 .round-button{
-	width:5%;
+	width:10%;
 	position:fixed;
-	bottom:10%;
-	left:47.5%;
+	bottom:20%;
+	left:45%;
 	box-shadow:10px;
 }
 
@@ -41,7 +41,7 @@ img {
 	padding-bottom:100%;
 	border:0;
 	overflow:hidden;
-	background:#fff;
+	background:#F3EF23;
 }
 
 #round-button-back:hover{
@@ -55,9 +55,9 @@ img {
 	padding-top:50%;
     padding-bottom:50%;
 	line-height:1em;
-	margin-top:-0.5em;
+	margin-top:-0.9em;
 	text-align:center;
-	color:#e2eaf3;
+	color:#729a53;
     font-family:Verdana;
     font-size:36px;
 }
