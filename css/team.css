@@ -26,7 +26,7 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+	display: block;
 }
 audio,
 canvas,
@@ -3148,9 +3148,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: #fff;
 }
 .btn-success {
-  color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+	color: #fff;
+	background-color: #5cb85c;
+	/* [disabled]border-color: #004D40; */
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -3160,7 +3160,7 @@ fieldset[disabled] .btn-primary.active {
 .open > .dropdown-toggle.btn-success {
 	color: #fff;
 	background-color: #546E7A;
-	border-color: #398439;
+	border-color: #214D21;
 }
 .btn-success:active,
 .btn-success.active,
@@ -4903,7 +4903,7 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
 	padding: 48px 0;
-	background-color: #2E7D32;
+	background-color: #006064;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6614,6 +6614,7 @@ button.close {
 	padding-right: 15px;
 }
 .Prokash {
+	background-color: #48A010;
 
 }
 .sambit {
@@ -6623,10 +6624,11 @@ button.close {
 }
 .rajas {
 	background-color: #33b5e5;
+	color: #222222;
 }
 .sap {
 	background-color: #8D6E63;
-	color: white;
+	color: #823411;
 }
 
 .shadab {
@@ -6656,4 +6658,29 @@ button.close {
 .ruman {
 	background-color: #0D47A1;
 	color: #BBDEFB;
+}
+.moinak {
+	background-color: #823411;
+	color: #8D6E63;
+}
+.basu {
+	background-color: #424242;
+	color: #fefefe;
+}
+.angana {
+	background-color: #7B1FA2;
+	color: #FBC02D;
+
+}
+.greeshma {
+	background-color: #FBC02D;
+	color: #7B1FA2;
+}
+.agnish {
+	background-color: #8bc34a;
+	color: #eeeeee;
+}
+.pranjal {
+	background-color: #1A237E;
+	color: white;
 }
