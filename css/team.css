@@ -1311,6 +1311,9 @@ p {
   .halfcolumns {
 	width: 50%;
   }
+    .agnish {
+	font-size:22px;
+  }
 }
 small,
 .small {
