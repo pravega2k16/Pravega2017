@@ -1602,7 +1602,9 @@ pre code {
   float: left;
 }
 .col-xs-12 {
-  width: 100%;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .col-xs-11 {
   width: 91.66666667%;
@@ -6574,6 +6576,7 @@ button.close {
 }
 .biology {
 	background-color: #00E676;
+	text-align: right;
 }
 .math {
 	background-color: #f9af7d;
