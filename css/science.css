@@ -82,9 +82,7 @@ sup {
 sub {
   bottom: -.25em;
 }
-img {
-	padding: 1%;
-}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -1084,12 +1082,14 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Lato', sans-serif;
+	;
+	;
 	font-size: 16px;
 	line-height: 1.42857143;
 	color: #333;
 	margin: 0px;
-	background-color: #fff;
+	background-color: #131633;
 }
 input,
 button,
@@ -1100,25 +1100,27 @@ textarea {
   line-height: inherit;
 }
 a {
-	color: #F80007;
+	color: #B3E5FC;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+	color: #E0E0E0;
+	text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	color: #B3E5FC;
 }
 figure {
   margin: 0;
 }
 img {
-	vertical-align: middle;
 	position: absolute;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1227,8 +1229,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+	/* [disabled]margin-top: 20px; */
+	margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -1269,18 +1271,24 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
-  font-family: 'PT Serif', serif;
+	font-size: 36px;
+	font-family: 'Lato', sans-serif;
+	;
+	;
 }
 h2,
 .h2 {
-  font-size: 30px;
-  font-family: 'Josefin Slab', serif
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	;
+	;
+	color: #EEEEEE;
+
 }
 h3,
 .h3 {
 	font-size: 24px;
-	color: #616161;
+	color: #E0E0E0;
 	font-family: 'PT Serif', serif;
 }
 h4,
@@ -1296,7 +1304,8 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+	margin: 0 0 10px;
+	color: #E0E0E0;
 }
 .lead {
   margin-bottom: 20px;
@@ -1581,10 +1590,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .container-fluid {
@@ -1592,19 +1599,27 @@ pre code {
 	/* [disabled]padding-left: 15px; */
 }
 .row {
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+
 
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 	position: relative;
 	min-height: 1px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
 .col-xs-12 {
 	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 .col-xs-11 {
   width: 91.66666667%;
@@ -1774,8 +1789,6 @@ pre code {
   }
   .col-sm-8 {
 	width: 66.66666667%;
-	padding-right: 15px;
-	padding-left: 15px;
   }
   .col-sm-7 {
     width: 58.33333333%;
@@ -4849,8 +4862,8 @@ a.badge:focus {
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-bottom: 30px;
-	color: inherit;
-	background-color: #eee;
+	color: #BDBDBD;
+	background-color: #131633;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4883,7 +4896,8 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+	font-size: 63px;
+	color: #F5F5F5;
   }
 }
 .thumbnail {
@@ -6569,17 +6583,18 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 .physics {
 	text-align: right;
-	background-color: #90CAF9;
+	background-color: #0D47A1;
+	vertical-align: central;
 }
 .chem {
-	background-color: #FFCA28;
+	background-color: #311B92;
 }
 .biology {
-	background-color: #00E676;
+	background-color: #01579B;
 	text-align: right;
 }
 .math {
-	background-color: #f9af7d;
+	background-color: #1A237E;
 }
 
 .overlay {
