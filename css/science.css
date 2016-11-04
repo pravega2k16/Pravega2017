@@ -4896,7 +4896,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-	font-size: 63px;
+	font-size: 72px;
 	color: #F5F5F5;
   }
 }
@@ -6583,18 +6583,18 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 .physics {
 	text-align: right;
-	background-color: #0D47A1;
+	background-color: #222651;
 	vertical-align: central;
 }
 .chem {
-	background-color: #311B92;
+	background-color: #2A1237;
 }
 .biology {
-	background-color: #01579B;
+	background-color: #032947;
 	text-align: right;
 }
 .math {
-	background-color: #1A237E;
+	background-color: #2C1B47;
 }
 
 .overlay {
