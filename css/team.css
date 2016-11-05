@@ -12,6 +12,7 @@ html {
 }
 body {
 	margin: 0px;
+	font-family: 'Hind', sans-serif;
 }
 article,
 aside,
@@ -1087,11 +1088,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.42857143;
-	color: #222;
-	background-color: #fff;
+	color: #FFFFFF;
+	background-color: #180C22;
 }
 input,
 button,
@@ -1270,18 +1270,25 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
-  font-family: 'Merriweather', serif;
+	font-size: 63px;
+
+
+
+	font-family: font-family
+: 'Montserrat', sans-serif;
+: 'Montserrat', sans-serif;;
+	font-family: 'Montserrat', sans-serif;
 }
 h2,
 .h2 {
-	font-size: 42px;
-	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	letter-spacing: 0.5px;
 }
 h3,
 .h3 {
-	font-size: 30px;
-	font-family: 'Gentium Book Basic', serif;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
 }
 h4,
 .h4 {
@@ -1297,7 +1304,7 @@ h6,
 }
 p {
 	margin: 0 0 10px;
-	font-size: 16px;
+	font-size: 20px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1607,6 +1614,8 @@ pre code {
 	min-width: 50px;
 }
 .row {
+	margin-top: 25px;
+	margin-bottom: 25px;
 
 
 }
@@ -3154,7 +3163,6 @@ fieldset[disabled] .btn-primary.active {
 .open > .dropdown-toggle.btn-success {
 	color: #fff;
 	background-color: #546E7A;
-	border-color: #214D21;
 }
 .btn-success:active,
 .btn-success.active,
@@ -4866,10 +4874,10 @@ a.badge:focus {
 	/* [disabled]padding-top: 30px; */
 	padding-right: 15px;
 	padding-left: 15px;
-	/* [disabled]padding-bottom: 30px; */
+	padding-bottom: 30px;
 	/* [disabled]margin-bottom: 30px; */
 	color: inherit;
-	background-color: #006064;
+	background-color: #000000;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4882,6 +4890,7 @@ a.badge:focus {
 	color: white;
 	align-content: center;
 	text-align: center;
+	/* [disabled]font-family: "arial",sans-serif; */
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4895,7 +4904,7 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-	background-color: #006064;
+
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6644,6 +6653,8 @@ button.close {
 	position: relative;
 	left: 25%;
 	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .rahul {
 }
@@ -6692,4 +6703,13 @@ button.close {
 }
 .no-padding {
 	padding: 0px;
+}
+.headed {
+}
+.technical {
+	background-color: inherit;
+}
+.cultural {
+}
+.fun {
 }
