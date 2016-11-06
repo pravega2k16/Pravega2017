@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+#button_container, #button_container1, #button_container2, #button_container3, #button_container4, #button_container3_1, #button_container3_2, #button_container3_3 {
+	position: fixed;
+	height:40px;
+	width:1000px;
+	top: 87%;
+	left: 3%;
+	transition-property: top, opacity;
+	transition-duration: 0.3s;
+	display:inline-block;
+}
+#button_container{
+	z-index:3;
+}
+#button_container1, #button_container2, #button_container3, #button_container4 {
+	z-index:2;
+	opacity:0;
+}
+#button_container3_1, #button_container3_2, #button_container3_3 {
+	z-index:1;
+	opacity:0;
+}
+#button_container1.final {
+	top:77%;
+	opacity:1;	
+}
+#button_container2.final {
+	top:67%;
+	opacity:1;
+}
+#button_container3.final {
+	top:57%;
+	opacity:1;
+}
+#button_container4.final {
+	top:47%;
+	opacity:1;
+}
+#button_container3_1.final, #button_container3_2.final, #button_container3_3.final {
+	opacity:0;
+	top:57%;
+	transition-property: all;
+	transition-time:0.3s;
+	transition-timing-function: ease-in-out;
+}
+#button_container3_1.final1 {
+	top:47%;
+	left:190px;
+	opacity:1;
+	z-index:3;	
+}
+#button_container3_2.final1 {
+	top:57%;
+	left:190px;
+	opacity:1;
+	z-index:3;
+}
+#button_container3_3.final1 { 
+	top:67%;
+	left:190px;
+	opacity:1;
+	z-index:3;
+}
+.text-field {
+	float:left;
+	margin-left:10px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:20px;
+	display:flex;
+	align-items:center;
+	height:100%;
+}
+.nav_button {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	background-image: url('img.png');
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	background-color: #eed;
+	z-index: 3;
+	transition-property: background-color;
+	transition-duration: 0.1s;
+	margin:0;
+	float:left;
+}
+.nav_button:hover {
+	background-color:#DAE162;
+}
+#flex-banner {
+	background-color:#134517;
+	position: fixed;
+	height: 100%;
+	width: 0px;
+	z-index: 1;
+	opacity:0;
+	transition: all 0.3s ease-in;
+}
+#flex-banner.final {
+	opacity:0.5;
+	width:190px;
+	transition:width 0.3s ease-in-out;
+}
+#flex-banner.final1 {
+	width: 380px;
+}
+#dim
+{
+	background-color:#000000;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index:-1;
+	opacity:0;
+}
+#dim.final
+{
+	opacity:0.5;
+	z-index:1;
+}

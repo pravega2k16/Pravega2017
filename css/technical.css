@@ -6581,22 +6581,26 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.physics {
+#engineering {
 	text-align: right;
 	background-color: #222651;
 	vertical-align: central;
 }
-.chem {
+#gaming {
 	background-color: #2A1237;
 }
-.biology {
+#quizzes {
 	background-color: #032947;
 	text-align: right;
 }
-.math {
+#litdec {
 	background-color: #2C1B47;
 }
 
+#workshops {
+	text-align:right;
+	background-color:#1E1E5F;
+}
 .overlay {
 	position: fixed;
 	top: 0;
