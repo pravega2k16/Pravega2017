@@ -2,13 +2,13 @@
 /* CSS Document */
 #button_container, #button_container1, #button_container2, #button_container3, #button_container4, #button_container3_1, #button_container3_2, #button_container3_3 {
 	position: fixed;
-	height:40px;
-	width:1000px;
+	height: 40px;
+	width: 190px;
 	top: 87%;
 	left: 3%;
 	transition-property: top, opacity;
 	transition-duration: 0.3s;
-	display:inline-block;
+	display: inline-block;
 }
 #button_container{
 	z-index:3;
@@ -63,15 +63,38 @@
 	z-index:3;
 }
 .text-field {
-	float:left;
-	margin-left:10px;
-	margin-top:auto;
-	margin-bottom:auto;
-	font-size:20px;
-	display:flex;
-	align-items:center;
-	height:100%;
+	float: left;
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	color: #BBBB00;
 }
+
+.text-field:hover {
+	color: #098765;
+	text-decoration: underline;
+}
+
+.text-field a {
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	color: #BBBB00;
+}
+
+.text-field a:hover {
+	color: #098765;
+	text-decoration: underline;
+}
+
 .nav_button {
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -119,4 +142,9 @@
 {
 	opacity:0.5;
 	z-index:1;
+}
+.button_img {
+	height: 28px;
+	margin: 6px;
+	width: 28px;
 }
