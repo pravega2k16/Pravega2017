@@ -1303,8 +1303,8 @@ h3,
 	font-size: 24px;
 	color: #266DD3;
 	font-family: Montserrat,sans-serif;
-	margin-right: 10%;
-	margin-left: 10%;
+	/* [disabled]margin-right: 10%; */
+	margin-left: 20%;
 	text-align: right;
 }
 h4,
@@ -1322,11 +1322,11 @@ h6,
 p {
 	margin-top: 0;
 	margin-right: 0;
-	margin-left: 30%;
+	margin-left: 10%;
 	margin-bottom: 10px;
 	color: #344055;
 	font-family: Lato,sans-serif;
-	width: 60%;
+	width: 90%;
 	text-align: right;
 }
 .lead {
@@ -1621,10 +1621,9 @@ pre code {
 	/* [disabled]padding-left: 15px; */
 }
 .row {
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 20%;
+	margin-right: 10%;
+
 
 
 
@@ -1632,10 +1631,11 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 	position: relative;
 	min-height: 1px;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	/* [disabled]padding-left: 3%; */
+	/* [disabled]padding-right: 3%; */
+	/* [disabled]padding-bottom: 20px; */
+	/* [disabled]padding-top: 20px; */
+	align-content: flex-end;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -6622,8 +6622,6 @@ button.close {
 	font-family: Montserrat,sans-serif;
 	color: #266DD3;
 	margin-top: 13%;
-	margin-right: 10%;
-	margin-left: 20%;
 	text-align: right;
 }
 .col-lg-offset-5 {
@@ -6640,5 +6638,16 @@ button.close {
 }
 .icon img {
 	width: 100%;
-	display: block;
+	max-width: 100px;
+	position: relative;
+}
+
+.icon {
+	vertical-align: middle;
+	align-items: stretch;
+	
+}
+.col-md-offset-3 {
+}
+.col-lg-offset-3 {
 }
