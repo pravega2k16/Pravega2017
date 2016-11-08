@@ -147,3 +147,9 @@
 	margin: 5px;
 	width: 30px;
 }
+.navtext {
+	color: #DDD;
+}
+.navtext:hover {
+	color: #DDD;
+}
