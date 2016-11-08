@@ -4482,7 +4482,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-	padding: 20px;
+	padding: 10px;
 	background-color: #222;
 }
 .navbar-inverse .navbar-brand {
