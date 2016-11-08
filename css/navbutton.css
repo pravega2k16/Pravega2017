@@ -91,6 +91,7 @@
 
 .text-field a:hover {
 	color: #DDD;
+	text-decoration: none;
 }
 
 .nav_button {
