@@ -9,8 +9,9 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/team.css">
 <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/popup.css">
+<link rel="stylesheet" href="css/navbutton.css">
 <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
-<link href="css/navbutton.css" type="text/css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,73 +21,74 @@
     <![endif]-->
 </head>
 <body>
-<div id ="navbar">
+
+<div id ="navbar" class="hidden-xs">
     <div id="dim"></div>
     <div id="flex-banner"></div>
     <div id="button_container">
-    	<div class="nav_button"><img src="img/favicon.png" style="width:70%; height:70%;margin:15%" alt="icon"/> </div>
+    	<div class="nav_button"><img src="img/favicon.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="index.html"></a></div>
     </div>
     <div id="button_container1">
-        <div class="nav_button"> </div>
-        <div class="text-field">Science</div>
+        <div class="nav_button"><img src="img/icons/science.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="science.html">Science</a></div>
     </div>
     <div id="button_container2">
-        <div class="nav_button"> </div>
-        <div class="text-field">Technical</div>
+        <div class="nav_button"><img src="img/icons/tech.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="technical.html">Technical</a></div>
     </div>
     <div id="button_container3">
-        <div class="nav_button"> </div>
+        <div class="nav_button"><img src="img/icons/cultural.png" alt="icon" class="button_img" /> </div>
         <div class="text-field">Cultural</div>
     </div>
     <div id="button_container3_1">
-        <div class="nav_button"> </div>
-        <div class="text-field">Battle of Bands</div>
+        <div class="nav_button"><img src="img/icons/bob.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="bob.html">Battle of Bands</a></div>
     </div>
     <div id="button_container3_2">
-        <div class="nav_button"> </div>
-        <div class="text-field">Proscenium</div>
+        <div class="nav_button"><img src="img/icons/proscenium.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="proscenium.html">Proscenium</a></div>
     </div>
     <div id="button_container3_3">
-        <div class="nav_button"> </div>
-        <div class="text-field">Lasya</div>
+        <div class="nav_button"><img src="img/icons/lasya.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="lasya.html">Lasya</a></div>
     </div>
     <div id="button_container4">
-        <div class="nav_button"> </div>
-        <div class="text-field">Contact Us</div>
+        <div class="nav_button"><img src="img/icons/team.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="team.html">Contact Us</a></div>
     </div>
 </div>
-<nav class="navbar navbar-default">
+
+
+<nav class="navbar navbar-inverse hidden-sm hidden-md hidden-lg">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <p><a class="navbar-brand" href="#">Pravega </a></p>
-    </div>
-    
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myInverseNavbar2"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="">Pravega</a></div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-<ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.htm">Home</a> </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events<span class="caret"></span></a>
+    <div class="collapse navbar-collapse" id="myInverseNavbar2">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="technical.html">Technical</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cultural Events<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="lasya.html">Lasya</a> </li>
-            <li><a href="proscenium.html">Proscenium</a> </li>
-            <li><a href="#">Battle of Bands</a> </li>
+            <li><a href="lasya.html">Lasya</a></li>
+            <li><a href="proscenium.html">Proscenium</a></li>
+            <li><a href="bob.html">Battle of Bands</a></li>
             <li class="divider"></li>
-            <li><a href="pronites.html">Pronites</a> </li>
-            <li class="divider"></li>
-            <li><a href="science.html">Science</a> </li>
-            <li class="divider"></li>
-            <li><a href="technical.html">Technical</a> </li>
+            
           </ul>
-        </li>
+</li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
   </div>
   <!-- /.container-fluid --> 
 </nav>
+
 
 <!-- HEADER -->
 <header>
@@ -129,7 +131,7 @@
         </p>
       </div>
 
-<div class="col-lg-4 col-sm-4 text-center col-xs-12 col-md-4"> <img class="img-circle" alt="140x140" style="width: 140px; height: 140px; border: thin solid #333;" src="img/140X140.gif" data-holder-rendered="true">
+<div class="col-lg-4 col-sm-4 text-center col-xs-12 col-md-4"> <img class="img-circle" alt="140x140" style="width: 140px; height: 140px; border: thin solid #333;" src="img/team/agnish.png" data-holder-rendered="true">
   <h3 class="agnish-text">Agnish Behera</h3>
   <p>Physics Coordinator<br>
           agnish@pravega.org<br>
@@ -146,13 +148,13 @@
           abhay@pravega.org<br>
         </p>
       </div>
-      <div class="col-lg-4 col-sm-4 text-center col-md-4 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #FFF; height: 140px;" src="img/140X140.gif" data-holder-rendered="true">
+      <div class="col-lg-4 col-sm-4 text-center col-md-4 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000; height: 140px;" src="img/team/pranjal.png" data-holder-rendered="true">
         <h3>Pranjal Warade</h3>
         <p>Maths Coordinator<br>
           pranjalwarade@pravega.org<br>
         </p>
       </div>
-      <div class="col-lg-4 col-sm-4 text-center col-md-4 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/140X140.gif" data-holder-rendered="true">
+      <div class="col-lg-4 col-sm-4 text-center col-md-4 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/team/prakhar.png" data-holder-rendered="true">
         <h3>Prakhar Gupta</h3>
         <p>Maths Coordinator<br>
           prakhar@pravega.org<br>
@@ -194,7 +196,7 @@
     <p>Lasya Coordinator<br>
       anganade@pravega.org</p>
   </div>
-  <div class="col-lg-6 col-sm-6 text-center col-md-6 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/140X140.gif" data-holder-rendered="true">
+  <div class="col-lg-6 col-sm-6 text-center col-md-6 col-xs-12"> <img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/team/greeshma.png" data-holder-rendered="true">
     <h3>Greeshma Shivali</h3>
     <p>Lasya Coordinator<br>
       greeshmashivali@pravega.org</p>
@@ -283,7 +285,7 @@
       punarbasu@pravega.org<br>
     </p>
   </div>
-  <div class="col-lg-6 col-sm-6 text-center col-md-6 col-xs-12"><img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/140X140.gif" data-holder-rendered="true">
+  <div class="col-lg-6 col-sm-6 text-center col-md-6 col-xs-12"><img class="img-circle" alt="140x140" style="width: 140px; border: thin solid #000000; height: 140px;" src="img/team/bikramjit.png" data-holder-rendered="true">
     <h3>Bikramjit Karmakar</h3>
     <p class="desc">Outreach Coordinator<br>
       bikramjit@pravega.org</p>

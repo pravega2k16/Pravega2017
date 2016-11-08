@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 <link href="css/navbutton.css" rel="stylesheet" type="text/css">
 <link href="css/technical.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/popup.css">
 <link rel="shortcut icon" type="img/png" href="img/favicon.png">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,42 +23,46 @@
     <![endif]-->
 </head>
 <body>
-<div id ="buttonbar">
+
+<div id ="navbar" class="hidden-xs">
     <div id="dim"></div>
     <div id="flex-banner"></div>
     <div id="button_container">
-    	<div class="nav_button"><img src="img/favicon.png" style="width:70%; height:70%;margin:15%" alt="icon"/> </div>
+    	<div class="nav_button"><img src="img/favicon.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="index.html"></a></div>
     </div>
     <div id="button_container1">
-        <div class="nav_button"> </div>
-        <div class="text-field">Science</div>
+        <div class="nav_button"><img src="img/icons/science.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="science.html">Science</a></div>
     </div>
     <div id="button_container2">
-        <div class="nav_button"> </div>
-        <div class="text-field">Technical</div>
+        <div class="nav_button"><img src="img/icons/tech.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="technical.html">Technical</a></div>
     </div>
     <div id="button_container3">
-        <div class="nav_button"> </div>
+        <div class="nav_button"><img src="img/icons/cultural.png" alt="icon" class="button_img" /> </div>
         <div class="text-field">Cultural</div>
     </div>
     <div id="button_container3_1">
-        <div class="nav_button"> </div>
-        <div class="text-field">Battle of Bands</div>
+        <div class="nav_button"><img src="img/icons/bob.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="bob.html">Battle of Bands</a></div>
     </div>
     <div id="button_container3_2">
-        <div class="nav_button"> </div>
-        <div class="text-field">Proscenium</div>
+        <div class="nav_button"><img src="img/icons/proscenium.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="proscenium.html">Proscenium</a></div>
     </div>
     <div id="button_container3_3">
-        <div class="nav_button"> </div>
-        <div class="text-field">Lasya</div>
+        <div class="nav_button"><img src="img/icons/lasya.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="lasya.html">Lasya</a></div>
     </div>
     <div id="button_container4">
-        <div class="nav_button"> </div>
-        <div class="text-field">Contact Us</div>
+        <div class="nav_button"><img src="img/icons/team.png" alt="icon" class="button_img" /> </div>
+        <div class="text-field"><a href="team.html">Contact Us</a></div>
     </div>
 </div>
-<nav class="navbar navbar-inverse">
+
+
+<nav class="navbar navbar-inverse hidden-sm hidden-md hidden-lg">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -68,15 +73,15 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.htm">Home</a></li>
         <li><a href="team.html">Team</a></li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Events<span class="caret"></span></a>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="technical.html">Technical</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cultural Events<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="lasya.html">Lasya</a></li>
             <li><a href="proscenium.html">Proscenium</a></li>
             <li><a href="bob.html">Battle of Bands</a></li>
             <li class="divider"></li>
-            <li><a href="pronites.html">Pronites</a></li>
-            <li class="divider"></li>
-            <li><a href="technical.html">Technical</a></li>
+            
           </ul>
 </li>
       </ul>
@@ -85,6 +90,7 @@
   </div>
   <!-- /.container-fluid --> 
 </nav>
+
 <div class="container col-lg-12 jumbotron col-md-12 col-sm-12 col-xs-12">
   <div class="row">
     <div class="jumbotron text-center">
@@ -120,12 +126,13 @@
       <h3>Counter Strike (CS-GO)</h3>
       <p><em>This event is organized for the professionals. Clash with teams from all over India in the fight for Counter Strike supremacy, with prizes worth INR 25000 on the line.</em></p>
       <p><em><a href = "#csgo">Prizes and Rules</a></em></p>
-      <h3>DotA</h3>
-      <p><em>Get your heroes and supports geared up for the fight. DotA at IISc aims to bring together the gaming community in its first ever run of Defence of the Ancients.</em></p>
+      <h3>DOTA</h3>
+      <p><em>Get your heroes and supports geared up for the fight. DOTA at IISc aims to bring together the gaming community in its first ever run of Defence of the Ancients.</em></p>
       <p><em><a href = "#dota">Prizes and Rules</a></em></p>
     </div>
     <img src="img/400x400.gif" alt="Thumbnail Image 1" class="img-responsive col-lg-4 col-md-4 col-sm-4 hidden-xs">  </div>
 </div>
+<!--
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="quizzes"> <img src="img/400x400.gif" alt="Thumbnail Image 1" class="img-responsive col-lg-4 col-md-4 col-sm-4 hidden-xs">
     <div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -142,6 +149,7 @@
     </div>
   </div>
 </div>
+-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "litdec">
     <div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-12">
