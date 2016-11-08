@@ -1089,7 +1089,7 @@ body {
 	line-height: 1.42857143;
 	color: #333;
 	margin: 0px;
-	background-color: #131633;
+	background-color: #09160B;
 }
 input,
 button,
@@ -4863,7 +4863,7 @@ a.badge:focus {
 	padding-left: 15px;
 	padding-bottom: 30px;
 	color: #BDBDBD;
-	background-color: #131633;
+	background-color: transparent;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6583,73 +6583,21 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 #engineering {
 	text-align: right;
-	background-color: #222651;
+	background-color: #204C2C;
 	vertical-align: central;
 }
 #gaming {
-	background-color: #2A1237;
+	background-color: #0F2D2E;
 }
 #quizzes {
 	background-color: #032947;
 	text-align: right;
 }
 #litdec {
-	background-color: #2C1B47;
+	background-color: #0D3F1C;
 }
 
 #workshops {
-	text-align:right;
-	background-color:#1E1E5F;
-}
-.overlay {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	transition: opacity 500ms;
-	visibility: hidden;
-	opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-	padding: 20px;
-	background: #fff;
-	width: 70%;
-	position: relative;
-	transition: all 5s ease-in-out;
-	border: 5px;
-	height: 70%;
-	overflow: auto;
-	margin-bottom: auto;
-	margin-left: 15%;
-	margin-top: 35px;
-	margin-right: 15%;
-}
-
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-	overflow: auto;
+	text-align: right;
+	background-color: #1B4247;
 }

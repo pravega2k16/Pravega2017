@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5,7 +6,6 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@charset "utf-8";
 /* CSS Document */
 #background {
 	height: 100%;
@@ -16,8 +16,8 @@
 }
 
 body {
-	margin:0;
-	padding:0;
+	margin: 0px;
+	padding: 0px;
 }
 
 html {
@@ -1291,7 +1291,7 @@ h1,
 }
 h2,
 .h2 {
-	font-size: 30px;
+	font-size: 50px;
 	font-family: 'Lato', sans-serif;
 	;
 	;
@@ -1301,8 +1301,11 @@ h2,
 h3,
 .h3 {
 	font-size: 24px;
-	color: #E0E0E0;
-	font-family: 'PT Serif', serif;
+	color: #266DD3;
+	font-family: Montserrat,sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: right;
 }
 h4,
 .h4 {
@@ -1317,8 +1320,14 @@ h6,
   font-size: 12px;
 }
 p {
-	margin: 0 0 10px;
-	color: #E0E0E0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 30%;
+	margin-bottom: 10px;
+	color: #344055;
+	font-family: Lato,sans-serif;
+	width: 60%;
+	text-align: right;
 }
 .lead {
   margin-bottom: 20px;
@@ -2256,6 +2265,10 @@ pre code {
   }
   .col-lg-offset-0 {
     margin-left: 0;
+  }
+  
+  #background{
+	margin-left:-99px;  
   }
 }
 table {
@@ -4265,6 +4278,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+  }
+  
+  #background{
+	  margin-left: -199px;
   }
 }
 @media (min-width: 768px) {
@@ -6450,6 +6467,9 @@ button.close {
   td.visible-sm {
     display: table-cell !important;
   }
+  #background{
+	  margin-left:-159px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
@@ -6479,6 +6499,9 @@ button.close {
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
+  }
+  #background{
+	  margin-left: -129px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -6594,71 +6617,28 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.physics {
-	text-align: right;
-	background-color: #222651;
-	vertical-align: central;
-}
-.chem {
-	background-color: #2A1237;
-}
-.biology {
-	background-color: #032947;
+
+.title {
+	font-family: Montserrat,sans-serif;
+	color: #266DD3;
+	margin-top: 13%;
+	margin-right: 10%;
+	margin-left: 20%;
 	text-align: right;
 }
-.math {
-	background-color: #2C1B47;
+.col-lg-offset-5 {
 }
-
-.overlay {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	transition: opacity 500ms;
-	visibility: hidden;
-	opacity: 0;
+.col-md-offset-4 {
 }
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
+.col-lg-offset-7 {
 }
-
-.popup {
-	padding: 20px;
-	background: #fff;
-	width: 70%;
-	position: relative;
-	transition: all 5s ease-in-out;
-	border: 5px;
-	height: 70%;
-	overflow: auto;
-	margin-bottom: auto;
-	margin-left: 15%;
-	margin-top: 35px;
-	margin-right: 15%;
+.col-md-offset-5 {
 }
-
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+.col-md-offset-6 {
 }
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
+.col-md-offset-7 {
 }
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-	overflow: auto;
+.icon img {
+	width: 100%;
+	display: block;
 }
