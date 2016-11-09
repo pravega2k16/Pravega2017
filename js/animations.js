@@ -11,6 +11,7 @@ var elem4 = document.getElementById('button_container4');
 var banner = document.getElementById('flex-banner');
 var dim1= document.getElementById('dim');
 var text= document.getElementById('text-field');
+var hmtxt= document.getElementById('home-text');
 
 elem.onclick = function()
 {
@@ -27,13 +28,13 @@ elem.onclick = function()
 		banner.classList.toggle('final');
 		dim1.classList.toggle('final');
 		text.classList.toggle('final');
-		
+		hmtxt.classList.toggle('final');
 	}
 };
 
 document.body.onclick = function(event)
 {
-	if(event.screenX>190&&!elem31.classList.contains('final1'))
+	if(event.screenX>200&&!elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
@@ -48,9 +49,10 @@ document.body.onclick = function(event)
 			elem31.classList.remove('final');
 			elem32.classList.remove('final');
 			elem33.classList.remove('final');
+			hmtxt.classList.toggle('final');
 		}
 	}
-	else if(event.screenX>380&&elem31.classList.contains('final1'))
+	else if(event.screenX>400&&elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
@@ -69,6 +71,7 @@ document.body.onclick = function(event)
 			elem31.classLList.remove('final');
 			elem32.classList.remove('final');
 			elem33.classList.remove('final');
+			hmtxt.classList.toggle('final');
 		}
 	}
 };
