@@ -74,6 +74,13 @@
 	color: #777;
 }
 
+#text-home {
+	opacity:0;
+}
+
+#text-home.final{
+	opacity:1;
+}
 .text-field:hover {
 	color: #DDD;
 }

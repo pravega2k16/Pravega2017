@@ -250,6 +250,7 @@ th {
   }
   .label {
     border: 1px solid #000;
+
   }
   .table {
     border-collapse: collapse !important;
@@ -6320,6 +6321,7 @@ button.close {
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
 .nav:after,
+
 .navbar:after,
 .navbar-header:after,
 .navbar-collapse:after,
@@ -6683,4 +6685,8 @@ button.close {
 }
 .row-icon {
 	background-color: #FFFFFF;
+}
+
+.registrationtab:hover{
+	color: #CA8992;
 }
