@@ -6595,9 +6595,9 @@ button.close {
 }
 #litdec {
 	background-color: #0D3F1C;
+	text-align:right;
 }
 
 #workshops {
-	text-align: right;
 	background-color: #1B4247;
 }
