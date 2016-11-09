@@ -74,8 +74,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
-  font-size: 2em;
+
 }
 mark {
   color: #000;
@@ -1203,10 +1202,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+	font-family: inherit;
+	font-weight: normal;
+	line-height: normal;
+	color: inherit;
 }
 h1 small,
 h2 small,
@@ -1243,7 +1242,7 @@ h2,
 h3,
 .h3 {
 	/* [disabled]margin-top: 20px; */
-	margin-bottom: 10px;
+	/* [disabled]margin-bottom: 10px; */
 }
 h1 small,
 .h1 small,
@@ -1284,18 +1283,23 @@ h6 .small,
 }
 h1,
 .h1 {
-	font-size: 36px;
-	font-family: 'Lato', sans-serif;
+	font-size: 72px;
+	font-family: montserrat,sans-serif;
 	;
 	;
+	color: #111;
+	margin: 0px;
+	text-align: right;
 }
 h2,
 .h2 {
 	font-size: 50px;
-	font-family: 'Lato', sans-serif;
+	font-family: Montserrat,sans-serif;
 	;
 	;
-	color: #EEEEEE;
+	color: #266DD3;
+	margin: 0px;
+	text-align: right;
 
 }
 h3,
@@ -2267,9 +2271,7 @@ pre code {
     margin-left: 0;
   }
   
-  #background{
-	margin-left:-99px;  
-  }
+
 }
 table {
   background-color: transparent;
@@ -4280,9 +4282,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
   
-  #background{
-	  margin-left: -199px;
-  }
+ 
 }
 @media (min-width: 768px) {
   .navbar-nav {
@@ -6467,9 +6467,7 @@ button.close {
   td.visible-sm {
     display: table-cell !important;
   }
-  #background{
-	  margin-left:-159px;
-  }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
@@ -6500,9 +6498,7 @@ button.close {
   td.visible-md {
     display: table-cell !important;
   }
-  #background{
-	  margin-left: -129px;
-  }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
@@ -6619,10 +6615,7 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 .title {
-	font-family: Montserrat,sans-serif;
-	color: #266DD3;
 	margin-top: 13%;
-	text-align: right;
 }
 .col-lg-offset-5 {
 }
