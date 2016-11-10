@@ -5,7 +5,7 @@
 	height: 40px;
 	width: 40px;
 	top: 87%;
-	left: 3%;
+	left: 10px;
 	transition-property: top, opacity;
 	transition-duration: 0.3s;
 	display: inline-block;
@@ -14,7 +14,7 @@
 	z-index:3;
 }
 #button_container.final{
-	width:10%;
+	width:200px;
 }
 #button_container1, #button_container2, #button_container3, #button_container4 {
 	z-index:2;
@@ -27,22 +27,22 @@
 #button_container1.final {
 	top:77%;
 	opacity:1;
-	width:10%;
+	width:200px;
 }
 #button_container2.final {
 	top:67%;
 	opacity:1;
-	width:10%;
+	width:200px;
 }
 #button_container3.final {
 	top:57%;
 	opacity:1;
-	width:10%;
+	width:200px;
 }
 #button_container4.final {
 	top:47%;
 	opacity:1;
-	width:10%;
+	width:200px;
 }
 #button_container3_1.final, #button_container3_2.final, #button_container3_3.final {
 	opacity:0;
@@ -54,19 +54,19 @@
 }
 #button_container3_1.final1 {
 	top:47%;
-	left:13%;
+	left:200px;
 	opacity:1;
 	z-index:3;	
 }
 #button_container3_2.final1 {
 	top:57%;
-	left:13%;
+	left:200px;
 	opacity:1;
 	z-index:3;
 }
 #button_container3_3.final1 { 
 	top:67%;
-	left:13%;
+	left:200px;
 	opacity:1;
 	z-index:3;
 }
@@ -84,7 +84,7 @@
 
 #text-home {
 	opacity:0;
-	z-index:1;
+	z-index:-1;
 	transition-property: all;
 	transition-time:0.3s;
 	transition-timing-function: ease-in-out;	
@@ -92,6 +92,7 @@
 
 #text-home.final{
 	opacity:1;
+	z-index:1;
 }
 .text-field:hover {
 	color: #DDD;
@@ -141,11 +142,11 @@
 }
 #flex-banner.final {
 	opacity:0.5;
-	width:13%;
+	width:200px;
 	transition:width 0.3s ease-in-out;
 }
 #flex-banner.final1 {
-	width: 26%;
+	width: 400px
 }
 #dim
 {

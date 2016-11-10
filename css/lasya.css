@@ -6679,8 +6679,6 @@ button.close {
 	margin: 20px;
 }
 .icon-img {
-	/* [disabled]margin-bottom: 20px; */
-	/* [disabled]margin-left: 3%; */
 	width: 95%;
 }
 .row-icon {
@@ -6689,4 +6687,13 @@ button.close {
 
 .registrationtab:hover{
 	color: #CA8992;
+}
+
+#about {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#about .close{
+	right: 25%;
 }
