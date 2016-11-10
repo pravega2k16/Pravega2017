@@ -48,7 +48,7 @@ elem.onclick = function()
 
 document.body.onclick = function(event)
 {
-	if(event.screenX>width*0.13&&!elem32.classList.contains('final1'))
+	if(event.screenX>200&&!elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
@@ -72,7 +72,7 @@ document.body.onclick = function(event)
 			elem33.classList.remove('final');
 		}
 	}
-	else if(event.screenX>width*0.26&&elem32.classList.contains('final1'))
+	else if(event.screenX>400&&elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
