@@ -11,13 +11,28 @@ var elem4 = document.getElementById('button_container4');
 var banner = document.getElementById('flex-banner');
 var dim1= document.getElementById('dim');
 var text= document.getElementById('text-field');
-var hmtxt= document.getElementById('home-text');
-
+var hmtxt= document.getElementById('text-home');
+var width=window.innerWidth;
+var homelink=document.getElementById('home-link');
+var sci_link=document.getElementById('sci-link');
+var lasya_link=document.getElementById('lasya-link');
+var tech_link=document.getElementById('tech-link');
+var contact_link=document.getElementById('contact-link');
+//var bob_link=document.getElementById('bob-link');
+//var prosc_link=document.getElementById('prosc_link');
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
 	{
 		elem.classList.toggle('final');
+		homelink.setAttribute('href', 'index.html');
+		sci_link.setAttribute('href', 'science.html');
+		tech_link.setAttribute('href', 'technical.html');
+		contact_link.setAttribute('href', 'team.html');
+		lasya_link.setAttribute('href', 'lasya.html');
+		//bob_link.setAttribute('href', 'BOB Link');
+		//prosc_link.setAttribute('href', 'Proscenium Link');
+		hmtxt.classList.toggle('final');
 		elem1.classList.toggle('final');
 		elem2.classList.toggle('final');
 		elem3.classList.toggle('final');
@@ -28,20 +43,26 @@ elem.onclick = function()
 		banner.classList.toggle('final');
 		dim1.classList.toggle('final');
 		text.classList.toggle('final');
-		hmtxt.classList.toggle('final');
 	}
 };
 
 document.body.onclick = function(event)
 {
-	if(event.screenX>200&&!elem32.classList.contains('final1'))
+	if(event.screenX>width*0.13&&!elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
 			elem.classList.toggle('final');
+			homelink.removeAttribute('href');
+			sci_link.removeAttribute('href');
+			tech_link.removeAttribute('href');
+			contact_link.removeAttribute('href');
+			//bob_link.removeAttribute('href');
+			//prosc_link.removeAttribute('href');
 			elem1.classList.toggle('final');
 			elem2.classList.toggle('final');
 			elem3.classList.toggle('final');
+			hmtxt.classList.toggle('final');
 			elem4.classList.toggle('final');
 			banner.classList.toggle('final');
 			dim1.classList.toggle('final');
@@ -49,17 +70,23 @@ document.body.onclick = function(event)
 			elem31.classList.remove('final');
 			elem32.classList.remove('final');
 			elem33.classList.remove('final');
-			hmtxt.classList.toggle('final');
 		}
 	}
-	else if(event.screenX>400&&elem32.classList.contains('final1'))
+	else if(event.screenX>width*0.26&&elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
+			homelink.removeAttribute('href');
+			sci_link.removeAttribute('href');
+			tech_link.removeAttribute('href');
+			contact_link.removeAttribute('href');
+			//bob_link.removeAttribute('href');
+			//prosc_link.removeAttribute('href');
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
 			banner.classList.toggle('final1');
+			hmtxt.classList.toggle('final');
 			elem.classList.toggle('final');
 			elem1.classList.toggle('final');
 			elem2.classList.toggle('final');
@@ -71,13 +98,14 @@ document.body.onclick = function(event)
 			elem31.classLList.remove('final');
 			elem32.classList.remove('final');
 			elem33.classList.remove('final');
-			hmtxt.classList.toggle('final');
 		}
 	}
 };
 
-elem3.onclick = function() {
-	if(elem3.classList.contains('final')){
+elem3.onclick = function() 
+{
+	if(elem3.classList.contains('final'))
+	{
 		elem31.classList.toggle('final1');
 		elem32.classList.toggle('final1');
 		elem33.classList.toggle('final1');

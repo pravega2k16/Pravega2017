@@ -3,7 +3,7 @@
 #button_container, #button_container1, #button_container2, #button_container3, #button_container4, #button_container3_1, #button_container3_2, #button_container3_3 {
 	position: fixed;
 	height: 40px;
-	width: 200px;
+	width: 40px;
 	top: 87%;
 	left: 3%;
 	transition-property: top, opacity;
@@ -12,6 +12,9 @@
 }
 #button_container{
 	z-index:3;
+}
+#button_container.final{
+	width:10%;
 }
 #button_container1, #button_container2, #button_container3, #button_container4 {
 	z-index:2;
@@ -23,42 +26,47 @@
 }
 #button_container1.final {
 	top:77%;
-	opacity:1;	
+	opacity:1;
+	width:10%;
 }
 #button_container2.final {
 	top:67%;
 	opacity:1;
+	width:10%;
 }
 #button_container3.final {
 	top:57%;
 	opacity:1;
+	width:10%;
 }
 #button_container4.final {
 	top:47%;
 	opacity:1;
+	width:10%;
 }
 #button_container3_1.final, #button_container3_2.final, #button_container3_3.final {
 	opacity:0;
 	top:57%;
+	width:13%;
 	transition-property: all;
 	transition-time:0.3s;
 	transition-timing-function: ease-in-out;
 }
 #button_container3_1.final1 {
 	top:47%;
-	left:200px;
+	left:13%;
 	opacity:1;
 	z-index:3;	
 }
 #button_container3_2.final1 {
 	top:57%;
-	left:200px;
+	left:13%;
 	opacity:1;
 	z-index:3;
 }
 #button_container3_3.final1 { 
 	top:67%;
-	left:200px;
+	left:13%;
 	opacity:1;
 	z-index:3;
 }
@@ -76,6 +84,10 @@
 
 #text-home {
 	opacity:0;
+	z-index:1;
+	transition-property: all;
+	transition-time:0.3s;
+	transition-timing-function: ease-in-out;	
 }
 
 #text-home.final{
@@ -129,11 +141,11 @@
 }
 #flex-banner.final {
 	opacity:0.5;
-	width:190px;
+	width:13%;
 	transition:width 0.3s ease-in-out;
 }
 #flex-banner.final1 {
-	width: 380px;
+	width: 26%;
 }
 #dim
 {
