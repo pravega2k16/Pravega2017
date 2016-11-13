@@ -19,7 +19,7 @@ var lasya_link=document.getElementById('lasya-link');
 var tech_link=document.getElementById('tech-link');
 var contact_link=document.getElementById('contact-link');
 //var bob_link=document.getElementById('bob-link');
-//var prosc_link=document.getElementById('prosc_link');
+var prosc_link=document.getElementById('prosc-link');
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
@@ -31,7 +31,7 @@ elem.onclick = function()
 		contact_link.setAttribute('href', 'team.html');
 		lasya_link.setAttribute('href', 'lasya.html');
 		//bob_link.setAttribute('href', 'BOB Link');
-		//prosc_link.setAttribute('href', 'Proscenium Link');
+		prosc_link.setAttribute('href', 'proscenium.html');
 		hmtxt.classList.toggle('final');
 		elem1.classList.toggle('final');
 		elem2.classList.toggle('final');
@@ -58,7 +58,7 @@ document.body.onclick = function(event)
 			tech_link.removeAttribute('href');
 			contact_link.removeAttribute('href');
 			//bob_link.removeAttribute('href');
-			//prosc_link.removeAttribute('href');
+			prosc_link.removeAttribute('href');
 			elem1.classList.toggle('final');
 			elem2.classList.toggle('final');
 			elem3.classList.toggle('final');
@@ -81,7 +81,7 @@ document.body.onclick = function(event)
 			tech_link.removeAttribute('href');
 			contact_link.removeAttribute('href');
 			//bob_link.removeAttribute('href');
-			//prosc_link.removeAttribute('href');
+			prosc_link.removeAttribute('href');
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
