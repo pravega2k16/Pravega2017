@@ -1091,7 +1091,7 @@ body {
 	line-height: 1.42857143;
 	color: #333;
 	margin: 0px;
-	background-color: #1A1423;
+	background-color: #030610;
 }
 input,
 button,
@@ -1279,7 +1279,7 @@ h2,
 }
 h3,
 .h3 {
-	font-size: 22px;
+	font-size: 20px;
 	font-family: Montserrat,sans-serif;
 	color: #D3952B;
 }
@@ -1588,8 +1588,9 @@ pre code {
 .container {
 	/* [disabled]padding-right: 15px; */
 	/* [disabled]padding-left: 15px; */
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-left: 5%;
 }
 .container-fluid {
   padding-right: 15px;
@@ -2243,7 +2244,6 @@ caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #777;
-  text-align: left;
 }
 th {
   text-align: left;
@@ -4890,12 +4890,14 @@ a.badge:focus {
 	padding: 10px;
 	margin-bottom: 20px;
 	line-height: 1.42857143;
-	background-color: transparent;
-	/* [disabled]border: 1px solid #ddd; */
+	/*background-color: #7d5717;
+	 [disabled]border: 1px solid #ddd; */
 	-webkit-transition: border .2s ease-in-out;
 	-o-transition: border .2s ease-in-out;
 	transition: border .2s ease-in-out;
 	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -4909,7 +4911,6 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
 	padding: 9px;
-	/* [disabled]color: #333; */
 	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
 	font-size: 18px;
 }
@@ -6612,51 +6613,13 @@ button.close {
 	color: #000000;
 }
 
-.sh {
-	background-color: #000000;
-}
-.sn {
-	background-color: #FFFD06;
-}
-.anirban {
-	background-color: #FFFD06;
-}
-.gj {
-	background-color: #FFFD06;
-}
-.durjoy {
-	background-color: #000000;
-}
-.ss {
-	background-color: #64F808;
-}
-.ks {
-	background-color: #64F808;
-}
-.alakta {
-}
-.poulomi {
-}
-.deepika {
-}
-.kj {
-}
-.ap {
-}
-.soum {
-	color: #F8F4F4;
-}
-.others {
-	background-color: #000000;
-}
-.co {
-	color: #FFFFFF;
-}
+
 .aboutlasya {
 	color: inherit;
 }
 .contactss {
 	color: inherit;
+	background-color:#190C23;
 }
 .winnerss {
 	color: inherit;
@@ -6678,9 +6641,7 @@ button.close {
 .paragraph {
 	margin: 20px;
 }
-.icon-img {
-	width: 95%;
-}
+
 .row-icon {
 	background-color: #FFFFFF;
 }
@@ -6696,4 +6657,18 @@ button.close {
 
 #about .close{
 	right: 25%;
+}
+
+.logo {
+	background-color: #1A1423;
+}
+
+.popup p {
+	color: #383838;
+}
+.logo img{
+	max-width: 500px;	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
