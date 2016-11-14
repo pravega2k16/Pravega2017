@@ -20,7 +20,6 @@ var tech_link=document.getElementById('tech-link');
 var contact_link=document.getElementById('contact-link');
 //var bob_link=document.getElementById('bob-link');
 var prosc_link=document.getElementById('prosc-link');
-var nav_txt=document.getElementById('nav-text');
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
