@@ -18,8 +18,9 @@ var sci_link=document.getElementById('sci-link');
 var lasya_link=document.getElementById('lasya-link');
 var tech_link=document.getElementById('tech-link');
 var contact_link=document.getElementById('contact-link');
-//var bob_link=document.getElementById('bob-link');
+var bob_link=document.getElementById('bob-link');
 var prosc_link=document.getElementById('prosc-link');
+var navinfo=document.getElementById('navinfo');
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
@@ -30,12 +31,13 @@ elem.onclick = function()
 		tech_link.setAttribute('href', 'technical.html');
 		contact_link.setAttribute('href', 'team.html');
 		lasya_link.setAttribute('href', 'lasya.html');
-		//bob_link.setAttribute('href', 'BOB Link');
+		bob_link.setAttribute('href', 'bob.html');
 		prosc_link.setAttribute('href', 'proscenium.html');
 		hmtxt.classList.toggle('final');
 		elem1.classList.toggle('final');
 		elem2.classList.toggle('final');
 		elem3.classList.toggle('final');
+		navinfo.classList.toggle('final');
 		elem31.classList.add('final');
 		elem32.classList.add('final');
 		elem33.classList.add('final');
@@ -57,11 +59,12 @@ document.body.onclick = function(event)
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
 			contact_link.removeAttribute('href');
-			//bob_link.removeAttribute('href');
+			bob_link.removeAttribute('href');
 			prosc_link.removeAttribute('href');
 			elem1.classList.toggle('final');
 			elem2.classList.toggle('final');
 			elem3.classList.toggle('final');
+			navinfo.classList.toggle('final');
 			hmtxt.classList.toggle('final');
 			elem4.classList.toggle('final');
 			banner.classList.toggle('final');
@@ -80,11 +83,12 @@ document.body.onclick = function(event)
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
 			contact_link.removeAttribute('href');
-			//bob_link.removeAttribute('href');
+			bob_link.removeAttribute('href');
 			prosc_link.removeAttribute('href');
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
+			navinfo.classList.toggle('final');
 			banner.classList.toggle('final1');
 			hmtxt.classList.toggle('final');
 			elem.classList.toggle('final');
