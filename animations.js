@@ -21,7 +21,7 @@ var contact_link=document.getElementById('contact-link');
 //var bob_link=document.getElementById('bob-link');
 var prosc_link=document.getElementById('prosc-link');
 var nav_txt=document.getElementById('nav-text');
-hmtxt.innerHTML="Navigate";
+homelink.innerHTML="Navigate";
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
@@ -35,7 +35,7 @@ elem.onclick = function()
 		lasya_link.setAttribute('href', 'lasya.html');
 		//bob_link.setAttribute('href', 'BOB Link');
 		prosc_link.setAttribute('href', 'proscenium.html');
-		hmtxt.classList.toggle('final');
+		homelink.classList.toggle('final');
 		elem1.classList.toggle('final');
 		elem2.classList.toggle('final');
 		elem3.classList.toggle('final');
@@ -56,7 +56,7 @@ document.body.onclick = function(event)
 		if(elem.classList.contains('final'))
 		{
 			elem.classList.toggle('final');
-			hmtxt.innerHTML="Navigate";
+			homelink.innerHTML="Navigate";
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
@@ -83,7 +83,7 @@ document.body.onclick = function(event)
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
-			hmtxt.innerHTML="Navigate";
+			homelink.innerHTML="Navigate";
 			contact_link.removeAttribute('href');
 			//bob_link.removeAttribute('href');
 			prosc_link.removeAttribute('href');
