@@ -20,11 +20,14 @@ var tech_link=document.getElementById('tech-link');
 var contact_link=document.getElementById('contact-link');
 //var bob_link=document.getElementById('bob-link');
 var prosc_link=document.getElementById('prosc-link');
+var nav_txt=document.getElementById('nav-text');
+hmtxt.innerHTML="Navigate";
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
 	{
 		elem.classList.toggle('final');
+		hmtxt.innerHTML="Home";
 		homelink.setAttribute('href', 'index.html');
 		sci_link.setAttribute('href', 'science.html');
 		tech_link.setAttribute('href', 'technical.html');
@@ -48,11 +51,12 @@ elem.onclick = function()
 
 document.body.onclick = function(event)
 {
-	if(event.screenX>200&&!elem32.classList.contains('final1'))
+	if(event.screenX>220&&!elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
 			elem.classList.toggle('final');
+			hmtxt.innerHTML="Navigate";
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
@@ -72,19 +76,21 @@ document.body.onclick = function(event)
 			elem33.classList.remove('final');
 		}
 	}
-	else if(event.screenX>400&&elem32.classList.contains('final1'))
+	else if(event.screenX>420&&elem32.classList.contains('final1'))
 	{
 		if(elem.classList.contains('final'))
 		{
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
+			hmtxt.innerHTML="Navigate";
 			contact_link.removeAttribute('href');
 			//bob_link.removeAttribute('href');
 			prosc_link.removeAttribute('href');
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
+			elem.innerHTML="Navigate";
 			banner.classList.toggle('final1');
 			hmtxt.classList.toggle('final');
 			elem.classList.toggle('final');
