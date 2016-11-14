@@ -21,13 +21,11 @@ var contact_link=document.getElementById('contact-link');
 //var bob_link=document.getElementById('bob-link');
 var prosc_link=document.getElementById('prosc-link');
 var nav_txt=document.getElementById('nav-text');
-hmtxt.innerHTML="Navigate";
 elem.onclick = function()
 {
 	if(!elem.classList.contains('final'))
 	{
 		elem.classList.toggle('final');
-		hmtxt.innerHTML="Home";
 		homelink.setAttribute('href', 'index.html');
 		sci_link.setAttribute('href', 'science.html');
 		tech_link.setAttribute('href', 'technical.html');
@@ -56,7 +54,6 @@ document.body.onclick = function(event)
 		if(elem.classList.contains('final'))
 		{
 			elem.classList.toggle('final');
-			hmtxt.innerHTML="Navigate";
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
@@ -83,7 +80,6 @@ document.body.onclick = function(event)
 			homelink.removeAttribute('href');
 			sci_link.removeAttribute('href');
 			tech_link.removeAttribute('href');
-			hmtxt.innerHTML="Navigate";
 			contact_link.removeAttribute('href');
 			//bob_link.removeAttribute('href');
 			prosc_link.removeAttribute('href');
