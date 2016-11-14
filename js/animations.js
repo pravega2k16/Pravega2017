@@ -86,7 +86,6 @@ document.body.onclick = function(event)
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
-			elem.innerHTML="Navigate";
 			banner.classList.toggle('final1');
 			hmtxt.classList.toggle('final');
 			elem.classList.toggle('final');
