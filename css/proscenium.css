@@ -6604,14 +6604,7 @@ button.close {
 .contact {
 
 }
-.angana {
-	background-color: transparent;
-	color: #000000;
-}
-.greeshma {
-	background-color: transparent;
-	color: #000000;
-}
+
 
 
 .aboutlasya {
@@ -6629,20 +6622,10 @@ button.close {
 	margin: 20px;
 	color: #BD8D2E;
 }
-.quote {
-	margin-left: 20px;
-	margin-top: 40px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	font-family: PT Serif,serif;
-	color: #DDD;
-}
+
 
 .paragraph {
 	margin: 20px;
-}
-.icon-img {
-	width: 95%;
 }
 .row-icon {
 	background-color: #FFFFFF;

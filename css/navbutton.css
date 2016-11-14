@@ -10,6 +10,21 @@
 	transition-duration: 0.3s;
 	display: inline-block;
 }
+#navinfo{
+	position: fixed;
+	height: 40px;
+	width: 200px;
+	top: 87%;
+	left: 70px;
+	transition-property: top, opacity;
+	transition-duration: 0.3s;
+	display: inline-block;
+	opacity:1;
+	margin-top:7px;
+}
+#navinfo.final{
+	opacity:0;
+}
 #button_container{
 	z-index:3;
 }
