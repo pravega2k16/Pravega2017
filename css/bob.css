@@ -6668,3 +6668,7 @@ button.close {
 	margin-left:auto;
 	margin-right:auto;
 }
+
+.thumbnail {
+	background-color: #fff;
+}

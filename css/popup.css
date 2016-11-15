@@ -47,6 +47,7 @@
   font-weight: bold;
   text-decoration: none;
   color: #222;
+  z-index: 5;
 }
 .popup .close:hover {
   color: #06D85F;
