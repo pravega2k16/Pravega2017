@@ -1107,7 +1107,7 @@ a {
 }
 a:hover,
 a:focus {
-	color: #B75D69;
+	color: #d7C503;
 	text-decoration: none;
 }
 a:focus {
@@ -1301,7 +1301,6 @@ p {
 	margin: 0 0 10px;
 	font-family: Hind,sans-serif;
 	font-size: 16px;
-	color: #222;
 }
 .lead {
   margin-bottom: 20px;
@@ -6612,8 +6611,9 @@ button.close {
 }
 .contactss {
 	color: inherit;
-	background-color:#d4d4d4;
+	background-color:#000;
 	margin-bottom: 20px;
+	color:#AAA;
 }
 .winnerss {
 	color: inherit;
@@ -6621,7 +6621,7 @@ button.close {
 }
 .registrationtab {
 	margin: 20px;
-	color: #B75D69;
+	color: #887D0C;
 }
 .quote {
 	margin-left: 20px;
@@ -6641,7 +6641,7 @@ button.close {
 }
 
 .registrationtab:hover{
-	color: #CA8992;
+	color: #D7C503;
 }
 
 #about {
@@ -6663,7 +6663,7 @@ button.close {
 	color: #383838;
 }
 .logo img{
-	max-width: 450px;	
+	max-width: 500px;	
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
