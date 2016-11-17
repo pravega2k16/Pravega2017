@@ -3,49 +3,42 @@
  
 <url>
 <loc>http://www.pravega.org/index</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/science</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/technical</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/bob</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/lasya</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/proscenium</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://www.pravega.org/team</loc>
-<!--<lastmod>YYYY-MM-DD</lastmod>-->
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
