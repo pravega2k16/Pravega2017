@@ -197,7 +197,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1083,13 +1083,11 @@ html {
 }
 body {
 	font-family: 'Lato', sans-serif;
-	;
-	;
 	font-size: 16px;
 	line-height: 1.42857143;
 	color: #333;
 	margin: 0px;
-	background-color: #09160B;
+	background-color: #210404;
 }
 input,
 button,
@@ -1100,12 +1098,12 @@ textarea {
   line-height: inherit;
 }
 a {
-	color: #00ABFF;
+	color: #196E8A;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
-	color: #00DAFF;
+	color: #25A2AB;
 	text-decoration: none;
 }
 a:focus {
@@ -1119,8 +1117,6 @@ figure {
 }
 img {
 	position: absolute;
-	margin-top: 5%;
-	margin-bottom: 5%;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1327,9 +1323,11 @@ mark,
 }
 .text-left {
   text-align: left;
+	background-color: #5A1C04;
 }
 .text-right {
   text-align: right;
+	background-color: #42100D;
 }
 .text-center {
   text-align: center;
@@ -4860,7 +4858,7 @@ a.badge:focus {
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-bottom: 30px;
-	color: #F5F5F5;
+	color: #F5F5F5
 	background-color: transparent;
 }
 .jumbotron h1,
@@ -6579,23 +6577,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-#engineering {
-	text-align: right;
-	background-color: #204C2C;
-	vertical-align: central;
-}
-#gaming {
-	background-color: #0F2D2E;
-}
-#quizzes {
-	background-color: #032947;
-	text-align: right;
-}
-#litdec {
-	background-color: #1B4247;
-}
-
-#workshops {
-	text-align: right;
-	background-color: #0D3F1C;
-}
