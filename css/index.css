@@ -1282,7 +1282,7 @@ h1,
 .h1 {
 	font-size: 72px;
 	font-family: montserrat,sans-serif;
-	color: #111;
+	color: #202A63;
 	margin: 0px;
 	text-align: right;
 }
@@ -1321,11 +1321,11 @@ h6,
 p {
 	margin-top: 0;
 	margin-right: 0;
-	margin-left: 10%;
+	margin-left: 30%;
 	margin-bottom: 10px;
 	color: #344055;
 	font-family: Lato,sans-serif;
-	width: 90%;
+	width: 70%;
 	text-align: right;
 }
 .lead {
@@ -6648,7 +6648,7 @@ button.close {
 		font-size: 48px;
 	}
 	h2, .h2{
-		font-size: 45px;
+		font-size: 40px;
 	}
 }
 
