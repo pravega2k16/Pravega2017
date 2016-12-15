@@ -6579,16 +6579,19 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+body li{
+	color: #DDD
+}
+
 #engineering {
 	text-align: right;
 	background-color: #204C2C;
-	vertical-align: central;
 }
 #gaming {
 	background-color: #0F2D2E;
 }
 #quizzes {
-	background-color: #032947;
+	background-color: #06230F;
 	text-align: right;
 }
 #litdec {
@@ -6599,3 +6602,8 @@ button.close {
 	text-align: right;
 	background-color: #0D3F1C;
 }
+
+#shutterbug {
+	background-color: #10282B;
+}
+
