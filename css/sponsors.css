@@ -229,7 +229,7 @@ th {
     page-break-inside: avoid;
   }
   img {
-    max-width: 400px !important;
+    max-width: 100% !important;
   }
   p,
   h2,
@@ -6624,4 +6624,8 @@ button.close {
 }
 .box-border {
 	margin-bottom: 30px;
+}
+
+.row img{
+	max-width: 100%;
 }
