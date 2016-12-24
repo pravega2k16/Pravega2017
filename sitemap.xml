@@ -43,4 +43,16 @@
 <priority>1.0</priority>
 </url>
 
+<url>
+<loc>http://www.pravega.org/workshops</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>http://www.pravega.org/sponsors</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+
 </urlset>
