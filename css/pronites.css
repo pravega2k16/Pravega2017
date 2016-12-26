@@ -6698,41 +6698,13 @@ button.close {
     width: 1000px;
 }
 
-/*.21 {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 80%;
-	width: 80%;
-}
-
-.21a {
-	position: fixed;
-	bottom: 0;
-	right: 40%;
-	height: 80%;
-	z-index: 5;
-}
-
-.21b {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 80%;
-	z-index: 5;
-}
-
-.21a img {
-	float: right;
-}*/
-
 .wastehor{
 	height: 10%;
 }
 
 .wastever{
 	height: 90%;
-	width: 10%
+	width: 10%;
 }
 
 #dhruv {
@@ -6753,6 +6725,19 @@ button.close {
 	z-index: 6;
 }
 
+#dhruvtab{
+	height: 20px;
+	width: 100px;
+	bottom: 90%;
+	right: 10%;
+	position: fixed;
+	background-color: #DDD;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
 #intronaut {
 	position: fixed;
 	bottom: 0;
@@ -6769,4 +6754,17 @@ button.close {
 
 .intronautimg {
 	z-index: 6;
+}
+
+#intronauttab{
+	height: 20px;
+	width: 100px;
+	bottom: 90%;
+	right:0%;
+	position: fixed;
+	background-color: #DDD;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
 }
