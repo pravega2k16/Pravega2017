@@ -1093,7 +1093,9 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 100%;
 }
 input,
 button,
@@ -6590,181 +6592,26 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-.d19 {
-	background-color: #A6A600;
-	height: 50%;
-	top: 0;
-	left: 0;
-	position:fixed;
-	z-index: 0;
-	-webkit-transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-    transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
+.gap {
+	height: 10px;
+	background-color: #2f2f2f;
 }
 
-.d19:hover{
-	background-color: #A6A600;
-	height: 60%;
-	width: 60%;
-	top: 0;
-	left: 0;
-	position:fixed;
-	z-index: 2;
+.b21a {
+    background-image: url("../img/pronites/dhruv.png");
+    height: 788px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.d20 {
-	background-color: #0000A3;
-	height: 50%;
-	top: 0;
-	right: 0;
-	position:fixed;
-	z-index: 0;
-	-webkit-transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-    transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
+.b21b {
+    background-image: url("../img/pronites/intronaut.png");
+    height: 762px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.d20:hover {
-	background-color: #0000A3;
-	height: 60%;
-	width: 60%;
-	top: 0;
-	right: 0;
-	position:fixed;
-	z-index: 2;
-}
-
-.d21 {
-	background-color: #8C0000;
-	height: 50%;
-	bottom: 0;
-	right: 0;
-	position:fixed;
-	z-index: 0;
-	-webkit-transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-    transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-}
-
-.d21:hover {
-	background-color: #8C0000;
-	height: 60%;
-	width: 60%;
-	bottom: 0;
-	right: 0;
-	position:fixed;
-	z-index: 2;
-}
-
-.d22 {
-	background-color: #003400;
-	height: 50%;
-	bottom: 0;
-	left: 0;
-	position:fixed;
-	z-index: 0;
-	-webkit-transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-    transition: width 0.5s ease-out, height 0.5s ease-out, z-index 0.5s ease-out;
-}
-
-.d22:hover {
-	background-color: #003400;
-	height: 60%;
-	width: 60%;
-	bottom: 0;
-	left: 0;
-	position:fixed;
-	z-index: 2;
-}
-
-.over {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	visibility: hidden;
-	opacity: 0;
-	color: #000;
-	-webkit-transition: opacity 0.5s linear 0s;
-	transition: opacity 0.5s linear 0s;
-}
-.over:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-#wrapper{
-	height: 100%;
-    overflow:hidden;
-    width: 1000px;
-}
-
-.wastehor{
-	height: 10%;
-}
-
-.wastever{
-	height: 90%;
-	width: 10%;
-}
-
-#dhruv {
-	position: fixed;
-	bottom: 0;
-	right: 10%;
-	height: 90%;
-}
-
-#dhruv img {
-	float: right;
-	position: relative;
-	bottom: 0;
-	right: 0;
-}
-
-.dhruvimg{
-	z-index: 6;
-}
-
-#dhruvtab{
-	height: 20px;
-	width: 100px;
-	bottom: 90%;
-	right: 10%;
-	position: fixed;
-	background-color: #DDD;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
-}
-
-#intronaut {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 90%;
-}
-
-#intronaut img {
-	float: right;
-	position: relative;
-	bottom: 0;
-	right: 0;
-}
-
-.intronautimg {
-	z-index: 6;
-}
-
-#intronauttab{
-	height: 20px;
-	width: 100px;
-	bottom: 90%;
-	right:0%;
-	position: fixed;
-	background-color: #DDD;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
-}
