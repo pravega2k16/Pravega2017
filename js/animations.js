@@ -11,6 +11,7 @@ var elem4 = document.getElementById('button_container4');
 var elem5 = document.getElementById('button_container5');
 var elem6 = document.getElementById('button_container6');
 var elem7 = document.getElementById('button_container7');
+var elem8 = document.getElementById('button_container8');
 var banner = document.getElementById('flex-banner');
 var dim1= document.getElementById('dim');
 var text= document.getElementById('text-field');
@@ -26,6 +27,7 @@ var prosc_link=document.getElementById('prosc-link');
 var reg_link=document.getElementById('reg-link');
 var work_link=document.getElementById('work-link');
 var spon_link=document.getElementById('spon-link');
+var pro_link=document.getElementById('pro-link');
 var navinfo=document.getElementById('navinfo');
 elem.onclick = function()
 {
@@ -42,6 +44,7 @@ elem.onclick = function()
 		reg_link.setAttribute('href', 'https://www.thecollegefever.com/events/pravega');
 		work_link.setAttribute('href', 'workshops.html');
 		spon_link.setAttribute('href','sponsors.html');
+		pro_link.setAttribute('href', 'pronites.html');
 		hmtxt.classList.toggle('final');
 		elem1.classList.toggle('final');
 		elem2.classList.toggle('final');
@@ -54,6 +57,7 @@ elem.onclick = function()
 		elem5.classList.toggle('final');
 		elem6.classList.toggle('final');
 		elem7.classList.toggle('final');
+		elem8.classList.toggle('final');
 		banner.classList.toggle('final');
 		dim1.classList.toggle('final');
 		text.classList.toggle('final');
@@ -76,6 +80,7 @@ document.body.onclick = function(event)
 			reg_link.removeAttribute('href');
 			work_link.removeAttribute('href');
 			spon_link.removeAttribute('href');
+			pro_link.removeAttribute('href');
 			elem1.classList.toggle('final');
 			elem2.classList.toggle('final');
 			elem3.classList.toggle('final');
@@ -85,6 +90,7 @@ document.body.onclick = function(event)
 			elem5.classList.toggle('final');
 			elem6.classList.toggle('final');
 			elem7.classList.toggle('final');
+			elem8.classList.toggle('final');
 			banner.classList.toggle('final');
 			dim1.classList.toggle('final');
 			text.classList.toggle('final');
@@ -106,6 +112,7 @@ document.body.onclick = function(event)
 			reg_link.removeAttribute('href');
 			work_link.removeAttribute('href');
 			spon_link.removeAttribute('href');
+			pro_link.removeAttribute('href');
 			elem31.classList.toggle('final1');
 			elem32.classList.toggle('final1');
 			elem33.classList.toggle('final1');
@@ -120,6 +127,7 @@ document.body.onclick = function(event)
 			elem5.classList.toggle('final');
 			elem6.classList.toggle('final');
 			elem7.classList.toggle('final');
+			elem8.classList.toggle('final');
 			banner.classList.toggle('final');
 			dim1.classList.toggle('final');
 			text.classList.toggle('final');
