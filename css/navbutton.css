@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#button_container, #button_container1, #button_container2, #button_container3, #button_container4, #button_container5, #button_container6, #button_container7, #button_container3_1, #button_container3_2, #button_container3_3 {
+#button_container, #button_container1, #button_container2, #button_container3, #button_container4, #button_container5, #button_container6, #button_container7, #button_container8, #button_container3_1, #button_container3_2, #button_container3_3 {
 	position: fixed;
 	height: 40px;
 	width: 40px;
@@ -31,7 +31,7 @@
 #button_container.final{
 	width:200px;
 }
-#button_container1, #button_container2, #button_container3, #button_container4, #button_container5, #button_container6, #button_container7 {
+#button_container1, #button_container2, #button_container3, #button_container4, #button_container5, #button_container6, #button_container7, #button_container8 {
 	z-index:2;
 	opacity:0;
 }
@@ -71,6 +71,11 @@
 }
 #button_container7.final {
 	top:17%;
+	opacity:1;
+	width:200px;
+}
+#button_container8.final {
+	top:7%;
 	opacity:1;
 	width:200px;
 }
