@@ -1114,7 +1114,7 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -6617,7 +6617,7 @@ button.close {
 }
 
 .gap {
-	height: 10px;
+	height: 20px;
 	background-color: #2f2f2f;
 }
 
@@ -6679,4 +6679,14 @@ button.close {
 	background-color: rgba(47,47,47,0.7);
 	height: 100vh;
 	padding: auto;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.tickets a{
+	color:#BBB;
+}
+
+
+.tickets a:hover{
+	color:#FFF;
 }
