@@ -41,7 +41,7 @@ elem.onclick = function()
 		lasya_link.setAttribute('href', 'lasya.html');
 		bob_link.setAttribute('href', 'bob.html');
 		prosc_link.setAttribute('href', 'proscenium.html');
-		reg_link.setAttribute('href', 'https://www.thecollegefever.com/events/pravega');
+		reg_link.setAttribute('href', 'register.html');
 		work_link.setAttribute('href', 'workshops.html');
 		spon_link.setAttribute('href','sponsors.html');
 		pro_link.setAttribute('href', 'pronites.html');
