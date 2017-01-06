@@ -138,9 +138,9 @@ document.body.onclick = function(event)
 	}
 };
 
-elem3.onclick = function() 
+elem5.onclick = function() 
 {
-	if(elem3.classList.contains('final'))
+	if(elem5.classList.contains('final'))
 	{
 		elem31.classList.toggle('final1');
 		elem32.classList.toggle('final1');
