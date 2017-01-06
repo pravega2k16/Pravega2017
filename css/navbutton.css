@@ -81,26 +81,26 @@
 }
 #button_container3_1.final, #button_container3_2.final, #button_container3_3.final {
 	opacity:0;
-	top:57%;
+	top:37%;
 	width:200px;
 	transition-property: all;
 	transition-time:0.3s;
 	transition-timing-function: ease-in-out;
 }
 #button_container3_1.final1 {
-	top:47%;
+	top:27%;
 	left:200px;
 	opacity:1;
 	z-index:3;	
 }
 #button_container3_2.final1 {
-	top:57%;
+	top:37%;
 	left:200px;
 	opacity:1;
 	z-index:3;
 }
 #button_container3_3.final1 { 
-	top:67%;
+	top:47%;
 	left:200px;
 	opacity:1;
 	z-index:3;
