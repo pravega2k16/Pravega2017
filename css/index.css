@@ -6652,3 +6652,8 @@ button.close {
 	}
 }
 
+.timer {
+    margin-left:auto;
+    margin-right:0;
+    width: 160px;
+}
