@@ -6612,7 +6612,7 @@ button.close {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    background:rgba(255,255,255,0.1); 
+    background:rgba(255,255,255,0.5); 
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
 }
 
