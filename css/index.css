@@ -1104,6 +1104,7 @@ body {
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 input,
 button,
@@ -1615,7 +1616,7 @@ pre code {
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
-	background-color: rgba(127,127,127,0.8);
+	/*background-color: rgba(127,127,127,0.8);*/
 	height: 100vh;
 }
 

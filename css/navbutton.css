@@ -21,6 +21,7 @@
 	display: inline-block;
 	opacity:1;
 	margin-top:7px;
+	color: #DDD;
 }
 #navinfo.final{
 	opacity:0;
