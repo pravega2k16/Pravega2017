@@ -6622,7 +6622,7 @@ button.close {
 }
 
 .b19 {
-    background-image: url("../../img/pronites/classical.png");
+    background-image: url("../img/pronites/classical.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -6631,7 +6631,7 @@ button.close {
 }
 
 .b21a {
-    background-image: url("../../img/pronites/dhruv.png");
+    background-image: url("../img/pronites/dhruv.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -6640,7 +6640,7 @@ button.close {
 }
 
 .b21b {
-    background-image: url("../../img/pronites/intronaut.png");
+    background-image: url("../img/pronites/intronaut.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -6649,7 +6649,7 @@ button.close {
 }
 
 .b22a {
-    background-image: url("../../img/pronites/biswa.png");
+    background-image: url("../img/pronites/biswa.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -6658,7 +6658,7 @@ button.close {
 }
 
 .b22b {
-    background-image: url("../../img/pronites/nucleya.png");
+    background-image: url("../img/pronites/nucleya.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -6667,7 +6667,7 @@ button.close {
 }
 
 .ticketsback{
-	background-image: url("../../img/pronites/tickets.png");
+	background-image: url("../img/pronites/tickets.png");
 	height: 100vh;    
     background-attachment: fixed;
     background-position: center;
