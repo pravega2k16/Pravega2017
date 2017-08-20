@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+	color: #000;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+	padding: 20px;
+	background-color: #BFE4DB;
+	width: 70%;
+	position: relative;
+	transition: all 5s ease-in-out;
+	border: 5px;
+	height: 80%;
+	overflow: auto;
+	margin-bottom: auto;
+	margin-left: 15%;
+	margin-top: 40px;
+	margin-right: 15%;
+	z-index: 1100;
+	color: #000;
+}
+
+.popup h2 {
+	margin-top: 0;
+	color: #000000;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: fixed;
+  top: 50px;
+  right: 18%;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+  z-index: 5;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.content {
+	overflow: auto;
+	background-color: #BFE4DB;
+}
+
+.content ul {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.content li {
+	color:#000;
+}
+
+.content p {
+	color:#000;
+}
