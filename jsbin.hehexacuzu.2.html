@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/hehexacuzu/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+<style id="jsbin-css">
+body {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: hotpink;
+  transform-origin: 0 0;
+  transition: transform 1s linear;
+}
+
+.change-size {
+  transform: scale(2,2);
+  transform-origin: 0 0;
+	height: 200px;
+	width:200px;
+}
+
+
+#msg {
+  display:none;
+}
+</style>
+</head>
+<body>
+
+  <div id="button" class="button">
+    <p>Click Me</p>
+  </div>
+  
+  <div style="height: auto;">
+  <div id="box" class="box">  
+  </div>
+  </div>
+  
+  <div id="msg"></div>
+  
+<script id="jsbin-javascript">
+var myButton = $('#button'),
+       myBox = $('#box');
+
+myButton.click(function () { 
+
+  myBox.toggleClass('change-size');
+  
+  myBox.one('webkitTransitionEnd otransitionend msTransitionEnd transitionend',   
+  function(e) {
+    
+    $('#msg').append('<p>Animation complete</p>');
+    $('#msg').fadeToggle(1000);
+  });
+  
+  
+
+});
+
+</script>
+</body>
+</html>
