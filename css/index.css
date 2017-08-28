@@ -86,7 +86,7 @@ body {
 				color 0.2s linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.button-box {
 		width: 100%;	
 	}
