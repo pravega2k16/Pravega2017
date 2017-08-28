@@ -1,13 +1,11 @@
 // JavaScript Document
 $(document).ready(function(){
-	$('#gradient2').fadeIn(1000);
-	$('#gradient').fadeIn(1000,function(){
 		$('#header-logo').addClass('dikhraha');
 
 		$('#header-logo').one('webkitTransitionEnd otransitionend msTransitionEnd transitionend', function(e) {
 			$('#header-logo').addClass('chhota');
+			setTimeout(function(){$('#content').fadeIn(1000);}, 1000);
 		});
-	});
 	var colors = new Array(
 	  [1,0,127],
 	  [8,120,0],
