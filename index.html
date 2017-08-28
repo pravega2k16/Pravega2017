@@ -5,27 +5,31 @@
 <title>Pravega 2018</title>
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-	<script src="js/index.js" type="text/javascript"></script>
 </head>
 
-<body>
-	
-		
-            
-	<div id="gradient"></div>
-	<div id="gradient2"></div>
-    
-    <div id="stars"></div>
-    
+<body>    
     <div id="header-logo"></div>
     <div id="content">
-    <div class="left">
-    <div class="button"><a href="2017/index.html">Pravega 2017</a></div>
-    </div>
-    <div class="right>
-    <div class="button"><a href="team.html">Contacts Us</a></div>
-    </div>
-	
+    	<h1>Pravega 2018</h1>
+        <h3>Jan 19-21<br>
+        Coming Soon ;)</h3>
+        <div class="button-box">
+        <div class="button"><a href="2017/index.html"><span></span></a>Pravega 2017</div>
+        </div>
+        <div class="button-box">
+        <div class="button"><a href="2017/team-new.html"><span></span></a>Contact Us</div>
+        </div>
+	</div>
+    <script>
+	$(document).ready(function(){
+		$('#header-logo').addClass('dikhraha');
+
+		$('#header-logo').one('webkitTransitionEnd otransitionend msTransitionEnd transitionend', function(e) {
+			$('#header-logo').addClass('chhota');
+			setTimeout(function(){$('#content').fadeIn(1000);}, 1000);
+		});
+	});
+	</script>
 <!--shrey-->
 </body>
 </html>
