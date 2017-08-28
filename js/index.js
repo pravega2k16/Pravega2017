@@ -9,10 +9,10 @@ $(document).ready(function(){
 		});
 	});
 	var colors = new Array(
-	  [230,105,147],
-	  [58,164,178],
-	  [40,26,88],
-	  [232,24,122]);
+	  [1,0,127],
+	  [8,120,0],
+	  [147,0,0],
+	  [201,112,0]);
 	var step = 0;
 	//color table indices for:
 	// current color left
