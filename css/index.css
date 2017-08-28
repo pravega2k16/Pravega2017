@@ -31,8 +31,8 @@ body {
 
 #header-logo.dikhraha {
 	opacity: 1;
-	transition: opacity 2s linear,
-		        height 1s linear;
+	transition: opacity 1s linear,
+		        height 0.5s linear;
 }
 
 #header-logo.chhota {
@@ -55,7 +55,7 @@ body {
 .button-box {
 	width: 50%;
 	float: left;
-	position:relative;	
+	position:relative;
 }
 
 .button {
@@ -67,6 +67,8 @@ body {
 	padding: 10px 0;
 	position:relative;
 	color:#363636;
+	transition: background-color 0.2s linear,
+				color 0.2s linear;
 }
 
 .button span {
@@ -80,6 +82,8 @@ body {
 .button:hover {
 	background-color:#494949;
 	color:#E5E5E5;	
+	transition: background-color 0.2s linear,
+				color 0.2s linear;
 }
 
 @media only screen and (max-width: 768px) {
