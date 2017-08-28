@@ -39,7 +39,7 @@ body {
 #content{
 	position:absolute;
 	top:450px;
-	left:20%;
+	width:100%;
 	text-align:center;
 	display:none;
 	font-family:'Calibri';
